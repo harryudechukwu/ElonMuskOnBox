@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    background-color:rgb(233, 230, 230);
+}
+body {
+
+}
+.container {
+    display: flex;
+    justify-self: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+.box {
+    background-color: rgb(170, 170, 170);
+    width: 80px;
+    height: 40px;
+    margin-left: 10px; 
+     border-radius: 4px 4px 4px 4px;
+    box-shadow: rgba(17, 17, 17, 0.726) 0px 1px 4px;
+    transition: s ease-in-out;
+    transform: rotate(180deg);
+
+}
+.boxshaded {
+    background-color: rgba(22, 22, 22, 0.835);
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
